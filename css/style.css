@@ -23,3 +23,13 @@ h1 {
   color: transparent;
   text-shadow: 0 0 4px white;
 }
+
+/*  the score counter */
+p#score {
+  position: absolute;
+  margin: 0;
+  top: 35px;  /* position below the h1 */
+  right: 5px; /* align to the right */
+  color: #f61212; /* red color for ball count */
+  font-size: 1.5rem;
+}
